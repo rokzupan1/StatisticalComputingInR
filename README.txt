@@ -7,3 +7,8 @@ REGRESSION - out of many variables, one variable -> out of many scores, one scor
 We created a matrix that consist all of the predictor variables simultaneously. Read data, read all the columns except 12. That was matrix X. Then we created Y that had all the rows but only read the 12th column, that is the one that has RTEN - worthy of retention.
 Then we use reg1 <- lm(y~x) and reg1 to see the coefficients. using summary(reg1) we find out that the most important variables/ in sync are integrity and physics (able to physically come to work).
 
+File explanation:
+* [Code](https://github.com/rokzupan1/StatisticalComputingInR/blob/main/R%20-%20Basics%20of%20Statistical%20Computing.R)
+* [ChatGPTExplanation](https://github.com/rokzupan1/StatisticalComputingInR/blob/main/Interesting.PNG)
+
+Other 3 files are datasets used to demonstrate the importing data from csv,txt and xlsx files.
